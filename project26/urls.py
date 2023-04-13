@@ -22,4 +22,9 @@ urlpatterns = [
     path('display_topics/',display_topics,name='display_topics'),
     path('display_webpage/',display_webpage,name='display_webpage'),
     path('display_accessrecord/',display_accessrecord,name='display_accessrecord'),
+    path('delete_webpage/',delete_webpage,name='delete_webpage'),
+    path('update_display/',update_display,name='update_display'),
+    path('display_accessupdate/',display_accessupdate,name='display_accessupdate'),
+    path('display_webupdate/',display_webupdate,name='display_webupdate')
 ]
+
